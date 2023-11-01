@@ -33,13 +33,11 @@ class Particle {
     myY = myY + Math.sin(myAngle)*mySpeed;
     mySize = mySize + 0.5;
     if (myX > 500 || myX < 0) {
-      myColor = color((int)(Math.random()*256),(int)(Math.random()*256),(int)(Math.random()*256));
       mySize = 5;
       myX = 250;
       myY = 250;
     }
     if (myY > 500 || myY < 0) {
-      myColor = color((int)(Math.random()*256),(int)(Math.random()*256),(int)(Math.random()*256));
       mySize = 5;
       myY = 250;
       myX = 250;
